@@ -133,7 +133,7 @@ client.on("message", message => {
 
  client.on('ready', function(){
     var ms = 1000 ;
-    var setGame = [`le `,` lege`,`legend`,`legends`];
+    var setGame = [`ℛ `,` ℛℳ`,`ℛℳ 𝒞`,`ℛℳ 𝒞ℒ𝒜𝒩`];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -261,5 +261,5 @@ message.channel.sendFile(canvas.toBuffer());
 });
 
 
-client.login("NDcwOTYzNDc3MDEyMjgzMzk0.Djd6_w.Wxmk5TBrNgGDS-UMhEHStMIakBY");
+client.login("NDcyMTQzNzQxNTY2NzEzODY3.DjvHQA.R8PmQeo3yBV4HNLmz86KjjHHfPk");
 //CODES ReBeL
