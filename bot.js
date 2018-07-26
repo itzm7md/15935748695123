@@ -291,8 +291,7 @@ client.on('message', message => {
            .setColor("#FF00FF")
            .setFooter('By SHYBOY_05#0885 ')
            .setDescription(`**__أتمنى يعجبكم البوت يا أغلى ناس ❤️ 💛 💚 💙 💜 🖤__**`)
-     message.author.sendEmbed(embed)
-     
+     message.author.sendEmbed(embed) 
      }
      });    
 client.login("NDcyMTQzNzQxNTY2NzEzODY3.DjvHQA.R8PmQeo3yBV4HNLmz86KjjHHfPk");
