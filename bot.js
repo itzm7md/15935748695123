@@ -242,31 +242,7 @@ client.on('message', message => {
   message.channel.sendEmbed(embed);
   }
   });
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
+ 
    client.on("message", message => {
     if (message.content === "%help") {
      const embed = new Discord.RichEmbed() 
@@ -280,13 +256,6 @@ client.on('message', message => {
    
    }
    });
-  
-
-  
-   
-  
-  
-  
    client.on("message", message => {
       if (message.content === "/help") {
        const embed = new Discord.RichEmbed() 
@@ -316,13 +285,6 @@ client.on('message', message => {
      message.author.sendEmbed(embed)
      }
      });
-  
-  
-  
-  
-  
-  
-  
      client.on("message", message => {
       if (message.content === "$help") {
        const embed = new Discord.RichEmbed() 
